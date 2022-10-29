@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(229, 211, 211);
+
+}
+
+
+.log{
+    font-size: 2.5em;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 1.5rem/* 24px */;
+    font-weight: 700;
+    color: black;
+
+
+}
+div .container{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+
+form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.w{
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem ;
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81 / var(--tw-text-opacity));
+    background-color: #fff;
+    transition: ease-in-out;
+}
+.ww{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem ;
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81 / var(--tw-text-opacity));
+    background-color: #fff;
+    transition: ease-in-out;
+
+}
+
+
