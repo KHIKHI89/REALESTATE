@@ -21,7 +21,7 @@ export default function NavBar ()  {
   return (
     <div className="navbar">
         <div className="container">
-            <h1><span className="width-100% "><GiSpookyHouse />Real</span>Estate</h1>
+            <h1 className="flex"><span className="w-80% flex "><GiSpookyHouse className="w-full flex font-bold" />Real</span>Estate</h1>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className={`cursor-pointer border-b-[3px] border-b-transparent ${pathMathRoute("/") && "border-b-red-500"}`} onClick={()=>navigate("/")}>Home</li>
                 <li className={`cursor-pointer border-b-[3px] border-b-transparent ${pathMathRoute("/offers") && "border-b-red-500"}`} onClick={()=>navigate("/offers")}>Offers</li>

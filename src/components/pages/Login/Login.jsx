@@ -4,9 +4,7 @@ import {useState} from 'react'
 import OAuth from '../../OAuth';
 import {AiFillEyeInvisible , AiFillEye} from 'react-icons/ai'
 import './Login.css'
-
-
-export default function Login () {
+export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({ //hook
     email:"",
